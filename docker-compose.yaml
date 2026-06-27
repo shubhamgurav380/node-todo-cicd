@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   web:
-   image: shubhamgurav380/todo-app:latest
-    #image: todo-app:latest
+    image: shubhamgurav380/todo-app:latest
+    # image: todo-app:latest
     ports:
       - "8000:8000"
