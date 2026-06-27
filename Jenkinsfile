@@ -37,7 +37,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying the code'
+                echo 'Deploying the code to Localhost'
                 /* sh "docker run -d -p 8000:8000 todo-app:latest" */
                 sh "docker compose down && docker compose up -d --build"
             }
